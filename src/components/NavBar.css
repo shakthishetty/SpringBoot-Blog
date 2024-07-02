@@ -1,0 +1,82 @@
+/* NavBar.css */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Adjust height as needed */
+  background-color: #343a40;
+  color: white;
+  padding: 0 20px; /* Adjust horizontal padding */
+}
+
+.header {
+  background-color: #282c34;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.header .logo {
+  margin: 0;
+  font-size: 1.8rem; /* Adjust font size */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 10px; /* Adjust spacing between items */
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem; /* Adjust font size */
+  padding: 10px 15px; /* Adjust padding */
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+  background-color: #495057;
+}
+
+.nav ul li a .link-text {
+  margin-left: 8px; /* Adjust icon-text spacing */
+}
+
+.add-student {
+  margin-left: auto; /* Push add-student button to the right */
+}
+
+.add-student-btn {
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 15px; /* Adjust padding */
+  font-size: 1.2rem; /* Adjust font size */
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.add-student-btn:hover {
+  background-color: #0056b3;
+}
